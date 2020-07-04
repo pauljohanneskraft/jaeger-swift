@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "Jaeger",
+    platforms: [
+        .macOS(.v10_12), .iOS(.v13), .watchOS(.v6), .tvOS(.v13)
+    ],
     products: [
         .library(
             name: "Jaeger",
