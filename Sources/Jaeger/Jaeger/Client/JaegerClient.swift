@@ -27,7 +27,7 @@ public final class JaegerCoreDataClient {
      - Parameter session: The underlying `URLSession` to which requests will be forwarded.
 
      */
-    public convenience init(config: CoreDataAgentConfiguration, endPointUrl: URL, session: URLSession = .shared) {
+    public convenience init(config: MemoryAgentConfiguration, endPointUrl: URL, session: URLSession = .shared) {
         let sender = JSONSender(endPoint: endPointUrl, session: session)
         self.init(config: config, sender: sender)
 
@@ -45,7 +45,7 @@ public final class JaegerCoreDataClient {
      
      */
     public convenience init(
-        config: CoreDataAgentConfiguration,
+        config: MemoryAgentConfiguration,
         process: JaegerBatchProcess,
         endPointUrl: URL,
         session: URLSession = .shared
@@ -60,7 +60,7 @@ public final class JaegerCoreDataClient {
      - Parameter config: The configuration used by the `CoreDataAgent`.
      - Parameter sender: The underlying sender used by the agent.
      */
-    public init(config: CoreDataAgentConfiguration, sender: SpanSender) {
+    public init(config: MemoryAgentConfiguration, sender: SpanSender) {
         self.sender = sender
         self.agent = JaegerAgent(config: config, sender: sender)
         self.tracer = JaegerTracer(agent: agent)

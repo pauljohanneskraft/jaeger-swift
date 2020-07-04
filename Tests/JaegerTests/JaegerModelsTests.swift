@@ -8,6 +8,8 @@
 import XCTest
 @testable import Jaeger
 
+/*
+
 class JaegerModelsTests: XCTestCase {
 
     func testJaegerTagConversionString() {
@@ -207,3 +209,5 @@ class JaegerModelsTests: XCTestCase {
         }
     }
 }
+
+ */

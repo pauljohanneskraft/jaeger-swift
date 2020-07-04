@@ -8,6 +8,8 @@
 import XCTest
 @testable import Jaeger
 
+/*
+
 class JaegerJSONSenderTests: XCTestCase {
 
     func testSendSpansNoError() {
@@ -129,3 +131,5 @@ class JaegerJSONSenderTests: XCTestCase {
         wait(for: [spansSent, sessionDone], timeout: 1)
     }
 }
+
+ */

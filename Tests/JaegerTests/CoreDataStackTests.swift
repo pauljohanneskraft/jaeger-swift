@@ -6,8 +6,9 @@
 //
 
 import XCTest
-import CoreData
 @testable import Jaeger
+/*
+import CoreData
 
 class CoreDataStackTests: XCTestCase {
 
@@ -23,3 +24,4 @@ class CoreDataStackTests: XCTestCase {
         XCTAssertEqual(typeForStore, NSInMemoryStoreType)
     }
 }
+*/

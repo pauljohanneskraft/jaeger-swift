@@ -7,6 +7,8 @@
 
 import XCTest
 @testable import Jaeger
+
+/*
 import CoreData
 
 class JaegerClientTests: XCTestCase {
@@ -194,3 +196,5 @@ class JaegerClientTests: XCTestCase {
         XCTAssertNotNil(tracer)
     }
 }
+
+ */

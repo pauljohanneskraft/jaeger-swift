@@ -7,6 +7,9 @@
 
 import XCTest
 @testable import Jaeger
+
+/*
+
 import CoreData
 
 class JSONSenderTests: XCTestCase {
@@ -77,3 +80,5 @@ class JSONSenderTests: XCTestCase {
         wait(for: [spansSent, sessionDone], timeout: 1)
     }
 }
+
+ */

@@ -8,7 +8,7 @@
 import Foundation
 
 /// A delegate receiving all errors from a `CoreDataAgent`.
-public protocol CoreDataAgentErrorDelegate: class {
+public protocol MemoryAgentErrorDelegate: class {
     /**
      Called every time an error occurred in the `CoreDataAgent`.
 

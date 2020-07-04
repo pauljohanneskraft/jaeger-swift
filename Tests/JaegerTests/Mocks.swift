@@ -8,6 +8,8 @@
 import XCTest
 @testable import Jaeger
 
+/*
+
 /**
  A stub Tracer.
  
@@ -135,3 +137,5 @@ class EmptyAgent: Agent {
 
     func record(span: Span) { }
 }
+
+ */

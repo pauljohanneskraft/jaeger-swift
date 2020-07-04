@@ -6,8 +6,10 @@
 //
 
 import XCTest
-import CoreData
 @testable import Jaeger
+
+/*
+import CoreData
 
 // swiftlint:disable type_body_length
 class CoreDataAgentTests: XCTestCase {
@@ -365,3 +367,5 @@ class CoreDataAgentTests: XCTestCase {
         XCTAssertNil(configSendingMorefrequentThanSaving)
     }
 }
+
+ */

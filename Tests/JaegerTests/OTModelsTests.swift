@@ -8,6 +8,8 @@
 import XCTest
 @testable import Jaeger
 
+/*
+
 class OTModelsTests: XCTestCase {
 
     var defaultSpan = TestUtilities.getNewTestSpan()
@@ -208,3 +210,5 @@ class OTModelsTests: XCTestCase {
         }
     }
 }
+
+ */
